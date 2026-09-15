@@ -6,14 +6,66 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		534EB8F93058EE5900933D3B /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 534EB8F83058EE5900933D3B /* Core */; };
+		534EB8FC3058F15D00933D3B /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 534EB8FB3058F15D00933D3B /* DesignSystem */; };
+		534EB8FF3058F56D00933D3B /* FavoriteFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 534EB8FE3058F56D00933D3B /* FavoriteFeature */; };
+		534EB9023058F59C00933D3B /* HomeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 534EB9013058F59C00933D3B /* HomeFeature */; };
+		534EB9053058F5AB00933D3B /* PracticeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 534EB9043058F5AB00933D3B /* PracticeFeature */; };
+		534EB9083058F5BF00933D3B /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 534EB9073058F5BF00933D3B /* ProfileFeature */; };
+		535E400C3053E45C0096F900 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 535E400B3053E45C0096F900 /* Swinject */; };
+		53D34F1E30356E5900479BB5 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 53D34F1D30356E5900479BB5 /* RxCocoa */; };
+		53D34F2230356E5900479BB5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53D34F2130356E5900479BB5 /* RxSwift */; };
+		53D34F383035725700479BB5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53D34F373035725700479BB5 /* RxSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D34F2D303571BB00479BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53794BF0303541AC00C72E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53794BF7303541AC00C72E70;
+			remoteInfo = PitchStreak;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		53794BF8303541AC00C72E70 /* PitchStreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D34F29303571BB00479BB5 /* PitchStreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchStreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		53D34F3C303583DF00479BB5 /* Exceptions for "PitchStreak" folder in "PitchStreak" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PitchStreakTests/Domain/CalculateStreakUseCaseTests.swift,
+				PitchStreakTests/Domain/SaveSessionUseCaseTests.swift,
+			);
+			target = 53794BF7303541AC00C72E70 /* PitchStreak */;
+		};
+		53D34F3E303583E200479BB5 /* Exceptions for "PitchStreak" folder in "PitchStreakTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PitchStreakTests/Domain/CalculateStreakUseCaseTests.swift,
+				PitchStreakTests/Domain/SaveSessionUseCaseTests.swift,
+			);
+			target = 53D34F28303571BB00479BB5 /* PitchStreakTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		53794BFA303541AC00C72E70 /* PitchStreak */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				53D34F3C303583DF00479BB5 /* Exceptions for "PitchStreak" folder in "PitchStreak" target */,
+				53D34F3E303583E200479BB5 /* Exceptions for "PitchStreak" folder in "PitchStreakTests" target */,
+			);
 			path = PitchStreak;
+			sourceTree = "<group>";
+		};
+		53D34F2A303571BB00479BB5 /* PitchStreakTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PitchStreakTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +75,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534EB8FC3058F15D00933D3B /* DesignSystem in Frameworks */,
+				534EB9083058F5BF00933D3B /* ProfileFeature in Frameworks */,
+				534EB9023058F59C00933D3B /* HomeFeature in Frameworks */,
+				53D34F1E30356E5900479BB5 /* RxCocoa in Frameworks */,
+				534EB8F93058EE5900933D3B /* Core in Frameworks */,
+				53D34F2230356E5900479BB5 /* RxSwift in Frameworks */,
+				535E400C3053E45C0096F900 /* Swinject in Frameworks */,
+				534EB9053058F5AB00933D3B /* PracticeFeature in Frameworks */,
+				534EB8FF3058F56D00933D3B /* FavoriteFeature in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D34F26303571BB00479BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D34F383035725700479BB5 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				53794BFA303541AC00C72E70 /* PitchStreak */,
+				53D34F2A303571BB00479BB5 /* PitchStreakTests */,
+				53D34F363035725700479BB5 /* Frameworks */,
 				53794BF9303541AC00C72E70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				53794BF8303541AC00C72E70 /* PitchStreak.app */,
+				53D34F29303571BB00479BB5 /* PitchStreakTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		53D34F363035725700479BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,6 +134,7 @@
 				53794BF4303541AC00C72E70 /* Sources */,
 				53794BF5303541AC00C72E70 /* Frameworks */,
 				53794BF6303541AC00C72E70 /* Resources */,
+				535E40093053E1E10096F900 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -65,10 +145,43 @@
 			);
 			name = PitchStreak;
 			packageProductDependencies = (
+				53D34F1D30356E5900479BB5 /* RxCocoa */,
+				53D34F2130356E5900479BB5 /* RxSwift */,
+				535E400B3053E45C0096F900 /* Swinject */,
+				534EB8F83058EE5900933D3B /* Core */,
+				534EB8FB3058F15D00933D3B /* DesignSystem */,
+				534EB8FE3058F56D00933D3B /* FavoriteFeature */,
+				534EB9013058F59C00933D3B /* HomeFeature */,
+				534EB9043058F5AB00933D3B /* PracticeFeature */,
+				534EB9073058F5BF00933D3B /* ProfileFeature */,
 			);
 			productName = PitchStreak;
 			productReference = 53794BF8303541AC00C72E70 /* PitchStreak.app */;
 			productType = "com.apple.product-type.application";
+		};
+		53D34F28303571BB00479BB5 /* PitchStreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D34F2F303571BB00479BB5 /* Build configuration list for PBXNativeTarget "PitchStreakTests" */;
+			buildPhases = (
+				53D34F25303571BB00479BB5 /* Sources */,
+				53D34F26303571BB00479BB5 /* Frameworks */,
+				53D34F27303571BB00479BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D34F2E303571BB00479BB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				53D34F2A303571BB00479BB5 /* PitchStreakTests */,
+			);
+			name = PitchStreakTests;
+			packageProductDependencies = (
+				53D34F373035725700479BB5 /* RxSwift */,
+			);
+			productName = PitchStreakTests;
+			productReference = 53D34F29303571BB00479BB5 /* PitchStreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -83,6 +196,10 @@
 					53794BF7303541AC00C72E70 = {
 						CreatedOnToolsVersion = 26.2;
 					};
+					53D34F28303571BB00479BB5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 53794BF7303541AC00C72E70;
+					};
 				};
 			};
 			buildConfigurationList = 53794BF3303541AC00C72E70 /* Build configuration list for PBXProject "PitchStreak" */;
@@ -94,12 +211,22 @@
 			);
 			mainGroup = 53794BEF303541AC00C72E70;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				53D34F1A30356E5900479BB5 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				535E400A3053E45C0096F900 /* XCRemoteSwiftPackageReference "Swinject" */,
+				534EB8FA3058F15D00933D3B /* XCLocalSwiftPackageReference "DesignSystem" */,
+				534EB8FD3058F56D00933D3B /* XCLocalSwiftPackageReference "FavoriteFeature" */,
+				534EB9003058F59C00933D3B /* XCLocalSwiftPackageReference "HomeFeature" */,
+				534EB9033058F5AB00933D3B /* XCLocalSwiftPackageReference "PracticeFeature" */,
+				534EB9063058F5BF00933D3B /* XCLocalSwiftPackageReference "ProfileFeature" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 53794BF9303541AC00C72E70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				53794BF7303541AC00C72E70 /* PitchStreak */,
+				53D34F28303571BB00479BB5 /* PitchStreakTests */,
 			);
 		};
 /* End PBXProject section */
@@ -112,7 +239,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53D34F27303571BB00479BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535E40093053E1E10096F900 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint || true\nelif [ -f \"/opt/homebrew/bin/swiftlint\" ]; then\n  /opt/homebrew/bin/swiftlint || true\nelif [ -f \"/usr/local/bin/swiftlint\" ]; then\n  /usr/local/bin/swiftlint || true\nelse\n  echo \"warning: SwiftLint belum ke-install, download dari https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53794BF4303541AC00C72E70 /* Sources */ = {
@@ -122,7 +276,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53D34F25303571BB00479BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D34F2E303571BB00479BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53794BF7303541AC00C72E70 /* PitchStreak */;
+			targetProxy = 53D34F2D303571BB00479BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		53794C01303541AD00C72E70 /* Debug */ = {
@@ -261,6 +430,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +478,48 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53D34F30303571BB00479BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47LJTJ2QK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a2cognition.PitchStreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchStreak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PitchStreak";
+			};
+			name = Debug;
+		};
+		53D34F31303571BB00479BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47LJTJ2QK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a2cognition.PitchStreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchStreak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PitchStreak";
 			};
 			name = Release;
 		};
@@ -331,7 +544,105 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		53D34F2F303571BB00479BB5 /* Build configuration list for PBXNativeTarget "PitchStreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D34F30303571BB00479BB5 /* Debug */,
+				53D34F31303571BB00479BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		534EB8FA3058F15D00933D3B /* XCLocalSwiftPackageReference "DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DesignSystem;
+		};
+		534EB8FD3058F56D00933D3B /* XCLocalSwiftPackageReference "FavoriteFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = FavoriteFeature;
+		};
+		534EB9003058F59C00933D3B /* XCLocalSwiftPackageReference "HomeFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = HomeFeature;
+		};
+		534EB9033058F5AB00933D3B /* XCLocalSwiftPackageReference "PracticeFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = PracticeFeature;
+		};
+		534EB9063058F5BF00933D3B /* XCLocalSwiftPackageReference "ProfileFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ProfileFeature;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		535E400A3053E45C0096F900 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.0;
+			};
+		};
+		53D34F1A30356E5900479BB5 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		534EB8F83058EE5900933D3B /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		534EB8FB3058F15D00933D3B /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		534EB8FE3058F56D00933D3B /* FavoriteFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FavoriteFeature;
+		};
+		534EB9013058F59C00933D3B /* HomeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeFeature;
+		};
+		534EB9043058F5AB00933D3B /* PracticeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PracticeFeature;
+		};
+		534EB9073058F5BF00933D3B /* ProfileFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProfileFeature;
+		};
+		535E400B3053E45C0096F900 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 535E400A3053E45C0096F900 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		53D34F1D30356E5900479BB5 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53D34F1A30356E5900479BB5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		53D34F2130356E5900479BB5 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53D34F1A30356E5900479BB5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		53D34F373035725700479BB5 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53D34F1A30356E5900479BB5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53794BF0303541AC00C72E70 /* Project object */;
 }

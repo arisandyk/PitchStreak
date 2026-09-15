@@ -1,0 +1,33 @@
+{
+  "originHash" : "ae9898b3a0b87f7ec55bd384cbb8062728a1ba2c2d7384c1169022bc86f3bacd",
+  "pins" : [
+    {
+      "identity" : "pitchstreak-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/arisandyk/PitchStreak-Core.git",
+      "state" : {
+        "revision" : "d1b0ecb191867bb3163b3fabbed616168e566bda",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "132aea4f236ccadc51590b38af0357a331d51fa2",
+        "version" : "6.10.2"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "b685b549fe4d8ae265fc7a2f27d0789720425d69",
+        "version" : "2.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}
