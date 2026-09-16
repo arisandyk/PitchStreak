@@ -28,7 +28,7 @@ jobs:
           xcodebuild build \
             -project PitchStreak.xcodeproj \
             -scheme PitchStreak \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=latest' \
             CODE_SIGNING_ALLOWED=NO
 
       - name: Test
@@ -36,6 +36,6 @@ jobs:
           xcodebuild test \
             -project PitchStreak.xcodeproj \
             -scheme PitchStreak \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=latest' \
             -enableCodeCoverage YES \
             CODE_SIGNING_ALLOWED=NO
